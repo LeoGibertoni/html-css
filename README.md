@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="leogibertoni.github.io/Ex001 Codigo Base/index.html">Executar o Exercício 001</a>
+<a href="leogibertoni.github.io/html-css/ex001/index.html">Executar o Exercício 001</a>
