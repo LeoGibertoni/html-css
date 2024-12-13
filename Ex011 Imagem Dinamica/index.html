@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tenta abrir esse site em vários dispositivos diferentes, ou simplesmente aumente e diminui o tamanho do seu navegador!</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Foto Grande">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/Going Home - The Soundlings.mp3" controls autoplay loop></audio> <!-- MP3 WAV OGG -->
+
+    <h1>Podcast</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg"> <!-- MP3 -->
+        <source src="midia/guanacast-33.wav" type="audio/wav"> <!-- WAV MUITO PESADO! -->
+        <source src="midia/guanacast-33.ogg" type="audio/ogg"> <!-- OGGe -->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio!</p>
+        <a href="midia/guanacast-33.mp3">Clique Aqui para fazer o download</a>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,144 @@
+@charset "UTF-8";
+body{
+    background-color: bisque;
+}
+
+.tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.topo{
+    margin: 10px;
+    height: 20px;
+    padding-right: 5px;
+}
+a{
+    color: rgb(113, 113, 233);
+    text-decoration: none;
+}
+a:hover{
+    color: #ccaf8b;
+    text-decoration: underline;
+}
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
+}
+
+header{
+    background-color: white;
+    border: 2px solid black;
+}
+
+
+
+.meio{
+    background-color: white;
+}
+.corpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.projetos{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+.projetos p{
+    text-align: center;
+    height: 20px;
+    width: 610px;
+    background-color: white;
+    border-top: 1px solid black;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.trabalho{
+    height: 300px;
+    width: 610px;
+    background-color: white;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+.trabalho p{
+    padding-left: 10px;
+}
+.trabalho a:hover{
+    color: #ccaf8b;
+    text-decoration: underline;
+}
+.educacao{
+    height: 300px;
+    width: 610px;
+    background-color: white;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+.educacao p{
+    padding-left: 10px;
+}
+
+.fim{
+    background-color: white;
+}
+.comentario{
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.corpofinal{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid white;
+}
+.instrutor1 h2{
+    text-align: center;
+    height: 20px;
+}
+.instrutor1 p{
+    padding-left: 10px;
+}
+.instrutor2 h2{
+    text-align: center;
+    height: 20px;
+}
+.instrutor2 p{
+    padding-left: 10px;
+}
+
+.instrutor1{
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.instrutor2{
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.descricao{
+    color: darkgray;
+}
+
+
